@@ -1,0 +1,17 @@
+Before running this project ensure the following tools are installed
+
+1) .NET SDK
+2) Visual studio code
+3) Google Chrome Brwoser
+4) ChromeDriver(compatible with version 149 or 150)
+
+Required extensions in VS code
+1)  C# extension 
+2) SpecFlow for VS code
+
+
+COMMAND TO RUN THIS PROJECT IN TERMINAL 
+
+dotnet restore
+dotnet build 
+dotnet test
