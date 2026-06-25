@@ -1,6 +1,50 @@
 # SELENIUM-FLIGHTAUTOMATION-CSHARP-SPECFLOW
 Flight Booking Automation using Selenium + SpecFlow (BDD) 
 
+
+
+FlightBDD_fixed/
+└── FlightBDD_fix/                      MAIN PROJECT FOLDER
+    │
+    ├── FlightBDD.csproj                REQUIRED (core project file)
+    ├── FlightBDD.csproj.bak
+    ├── specflow.json                    SpecFlow config
+    ├── README.md
+    │
+    ├── Features/                       BDD Feature files
+    │   ├── FlightBooking.feature
+    │   └── FlightBooking.feature.cs
+    │
+    ├── StepDefinitions/                 Step implementations
+    │   └── FlightSteps.cs
+    │
+    ├── Pages/                           Page Object Model
+    │   ├── BasePage.cs
+    │   ├── ConfirmationPage.cs
+    │   ├── FlightResultsPage.cs
+    │   ├── FlightSearchPage.cs
+    │   ├── PaymentPage.cs
+    │   └── SeatBookingPage.cs
+    │
+    ├── Hooks/                           Setup / Teardown
+    │   └── TestHooks.cs
+    │
+    ├── TestData/                        Test data
+    │   └── users.json
+    │
+    ├── bin/                             AUTO-GENERATED
+    │   └── Debug/
+    │       ├── net8.0/
+    │       └── net10.0/
+    │
+    └── obj/                             AUTO-GENERATED
+        ├── Debug/
+        │   ├── net8.0/
+        │   └── net10.0/
+        ├── project.assets.json
+        ├── project.nuget.cache
+        └── FlightBDD.csproj.nuget.*
+
 Project Overview
 
 This project focuses on automating the flight booking workflow using Selenium WebDriver integrated with SpecFlow (BDD framework) in a .NET (C#) environment.
