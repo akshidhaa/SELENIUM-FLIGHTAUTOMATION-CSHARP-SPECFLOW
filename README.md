@@ -3,7 +3,8 @@ Flight Booking Automation using Selenium + SpecFlow (BDD)
 
 
 
-#FlightBDD_fixed/
+```
+FlightBDD_fixed/
 └── FlightBDD_fix/                      MAIN PROJECT FOLDER
     │
     ├── FlightBDD.csproj                REQUIRED (core project file)
@@ -44,6 +45,7 @@ Flight Booking Automation using Selenium + SpecFlow (BDD)
         ├── project.assets.json
         ├── project.nuget.cache
         └── FlightBDD.csproj.nuget.*
+```
 
 Project Overview
 
