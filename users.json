@@ -1,0 +1,15 @@
+{
+  "SiteUrl": "https://phptravels.net/flights",
+  "LoginUrl": "https://phptravels.net/login",
+  "ValidUser": {
+    "Email": "user@phptravels.com",
+    "Password": "demouser"
+  },
+  "Payment": {
+    "CardHolderName": "Test User",
+    "CardNumber": "4111111111111111",
+    "ExpiryMonth": "12",
+    "ExpiryYear": "2027",
+    "CVV": "123"
+  }
+}
